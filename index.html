@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="logo">Thess</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Thess</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about"onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>   
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="Images/image16.png" alt="Marites Ongpico profile picture" /
+          >
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Marites</h1>
+          <p class="section__text__p2">Graphic Artist</p>
+
+          <div class="btn-container">
+            <button class="btn btn color2" onclick="window.open('https://www.canva.com/design/DAFE0XIRLLI/1Khv00ePdeKJvM23G0_GPQ/edit?utm_content=DAFE0XIRLLI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">
+              
+    Download CV</button>
+    <button class="btn btn-color-1"onclick="location.href='#contact'">
+    Contact Info
+      </button>
+      <div id="socials-container">
+      <img
+      src="Images/onlinejob.png"
+      alt="My Onlinejob/ph profile"
+      class="icon"
+      onclick="location.href='https://www.onlinejobs.ph/jobseekers'"
+            />  
+          <img
+            src="Images/fb.png"
+            alt="My facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/profile.php?id=100063792109211'"
+          />
+<!---About Me-->
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="Images/image17.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="Images/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+                <h3>Experience</h3>
+                <p>10+ years <br />Graphic Artist</p>
+              </div>
+              <div class="details-container">
+
+                <img
+                  src="Images/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelor of Fine Arts<br />Major in Advertising</p>
+              </div>
+            </div>
+            <div class="text-container">
+
+              <p>
+                Graduated from FEU with a degree in Fine Arts Major in Advertising. I know how to Lay-out and designs for my client. I've been in the Industry for more than 3 decades. I'm a highly effective graphic designer with a wide range of design services. You can count on me to deliver the best designs 
+                possible.
+              </p>
+            </div>
+          </div>
+        </div> 
+<!--Experience-->
+        <img
+        src="Images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Graphic Artist</h2>
+            <div class="article-container">
+              <article>
+                <img
+                src="Images/checkmark.png"
+                alt="Experience icon"
+                class="icon"  
+              /> 
+              <div>
+                <h3>Graphic Artist</h3>
+                <p>Design & Print T-shirts</p>  
+              </div>
+            </article>
+            <article>
+              <img
+                src="Images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              /> 
+              <div>
+                <h3>Graphic Artist</h3>
+                <p>Design & Print Umbrella</p>
+              </div>
+            </article>
+            <article>
+              <img
+              src="Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Graphic Artist</h3>
+              <p>Design & Print on Ballpen, Neck Pillow & Keychain</p>
+            </div>
+          </article>
+          <article>
+            <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Graphic Artist</h3>
+                  <p>Design & Print on Clock, Thumbler, Planner & PVC IDS</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="Images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Graphic Artist</h3>
+                <p>Personalized Heatpress Design</p>
+              </div>
+            </article>
+            <article>
+              <img
+              src="Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+              <div>
+                <h3>Graphic Artist</h3>
+                <p>Souvenir Items</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Creative Freelance</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="Images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Creative Freelance</h3>
+                <p>Personalized Invitations</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="Images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />    
+              <div>
+                <h3>Creative Freelance</h3>
+                <p>Design & Print Tarpaulin</p>
+              </div>
+            </article>
+            <article>          
+              <img
+              src="Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Creative Freelance</h3>
+              <p>Caricature & Portraits</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="Images/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+              />
+              <div>
+                <h3>Creative Freelance</h3>
+                <p>Work of Art</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+    src="Images/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img  src="Images/image18 project1.png"
+            alt="Project 1" 
+            class="project-img" 
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.canva.com/design/DAFEykK0Z9E/iaWFJRYSLgow7JlX6DEZNw/watch?utm_content=DAFEykK0Z9E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'"
+              >
+                Services Offered
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/profile.php?id=100063792109211'"
+              >
+                Faithfully Prints Page
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="Images/image 19 project2.png" 
+              alt="Project 2"
+              class="project-img"
+            />
+
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.canva.com/design/DAFyuHZRxlA/4akx6dGgpx5tOfJmuu5wyg/edit?utm_content=DAFyuHZRxlA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'"
+            >
+              Sintra Orders
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.facebook.com/1225410503/videos/pcb.10230265869610398/624472509505450/'"
+            >
+             
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="Images/image 20 project3.png"
+          alt="Project 3"
+          class="project-img"
+        />
+        
+      </div>
+      <h2 class="experience-sub-title project-title">Project Three</h2>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/Ongpico/telecall-cwd-batch9-23-maritesongpico'"
+        >
+          Github
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://www.canva.com/design/DAFyuzXyHgQ/3pfV4gWKSHlLtudzGjiDfg/edit?utm_content=DAFyuzXyHgQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'"
+        >
+          CWD Batch-9
+        </button>
+      </div>
+      </div>
+    </div>
+    </div>
+    <img 
+    src="Images/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img 
+        src="Images/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+          />
+          <p><a href="https://mail.google.com/mail/u/0/#inbox">maritesongpico2@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+          src="Images/onlinejob.png"
+          alt="My Onlinejob/ph profile"
+          class="icon contact-icon"
+          />
+          <p><a href="https://www.onlinejobs.ph/jobseekers">onlinejob/ph</a> </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+      
+    <script src="script.js"></script>
+    
+</body>
+</html>
